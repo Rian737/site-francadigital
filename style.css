@@ -4,6 +4,7 @@ body{
     background-attachment: fixed;
     background-size: cover;
     font-family: "Playfair Display", serif;
+    margin: 0;
 }
 h1{
     color:whitesmoke;
@@ -34,4 +35,44 @@ h2{
 
 .com_margin {
     margin: 60px;
+}
+
+.site-header {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px 32px;
+  background: white;
+  display: flex;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.logo img {
+    width: 96px;
+    height: auto;
+}
+
+.informacoes .alumo {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 4px;
+}
+
+.informacoes .titulo-site {
+    font-size: 18px;
+    margin: 0;
+    color: black;
+}
+
+.site-nav a {
+    color: blue;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.site-nav a:hover {
+    text-decoration: underline;
 }
